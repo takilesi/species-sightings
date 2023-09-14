@@ -11,9 +11,9 @@ function Birds() {
     // executes on 
     useEffect(() => {
         // do this to display data as comma separated on mount 
-        setVisualizeBirdData( birdData.toString() )
+        setVisualizeBirdData(birdData.toString())
         console.log("loaded");
-     });
+    },[birdData]);
 
     const handleAdd = () => {
        
