@@ -1,0 +1,26 @@
+.componentBody{
+    color: gray; 
+    width: 35%; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.dataCont{
+    /* margin-top: -25px; */
+    overflow-y: scroll;
+    height: 45vh; 
+  
+}
+
+.displayData{
+    justify-content: center;
+    margin-top: -50px; 
+    font-size: 20px;
+    color: black; 
+    display: flex;
+  
+}
+
+.spec{
+    color: gray;
+}

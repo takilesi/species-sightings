@@ -1,23 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
+import Birds from './components/Birds'
+import FreqDisplay from './components/FreqDisplay';
 
-function App() {
+function App({viewBirdArray}) {
+
+  console.log("App.js", viewBirdArray)
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+       <p className="header">Enter a comma separated list into input box. Click Add to see new results.</p>
+       <h1 className="title">Calculate Species Sightings</h1>
+       <Birds />
+       <footer className="footer">Project Inception: <a href="https://www.hackerrank.com/challenges/migratory-birds/problem?isFullScreen=true">HackerRank Migratory-Birds Problem</a></footer>
     </div>
   );
 }
