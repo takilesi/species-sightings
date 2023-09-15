@@ -44,7 +44,8 @@ function Birds() {
                 }
             }
             bird = {species : shortArr[i], 
-                    count : count
+                    count : count,
+                    id : i
                    } 
             console.log("bird.species: ", bird.species, "bird.count: ", bird.count)
             birdArr.push(bird)           
