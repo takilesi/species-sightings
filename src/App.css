@@ -5,7 +5,7 @@
   width: 100%;
   color: gold;
   text-align: center;
-  background-image: linear-gradient(black,gold,yellow,yellow,yellow,gold,black);
+  background-image: linear-gradient(black,gold,yellow,yellow,gold,black);
   background-position: center top;
   background-repeat: no-repeat;
   background-size: 100% auto;
@@ -18,7 +18,9 @@
   margin-top: -8px;
   /* -webkit-text-stroke-width: 1px; */
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  -webkit-text-stroke: 1px black;
+  -webkit-text-stroke: 1.3px black;
+  font-size: 35px;
+  font-weight: bold;
 }
 .footer{
   position: fixed; 
