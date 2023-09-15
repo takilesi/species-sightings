@@ -8,7 +8,7 @@ function FreqDisplay({viewBirdArray}) {
   return (
     <div className="componentBody">
         <h4>Sightings Frequency:</h4>
-        <div className="dataCont">
+        <div className="dataContainer">
             {
                 viewBirdArray.map((bird,key) => 
                     <>

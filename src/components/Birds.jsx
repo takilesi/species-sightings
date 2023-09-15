@@ -62,7 +62,7 @@ function Birds() {
     <div className="birdsBody">
         <h3>Current Data:</h3>
         <h3 className="data"> {visualizeBirdData}</h3>
-        <input  type="text" placeholder="paste or type your data" onChange={(e) => setBirdData(e.target.value.split(","))} />
+        <input className="inputBox" type="text" placeholder="paste or type your data" onChange={(e) => setBirdData(e.target.value.split(","))} />
         <button type="button" onClick={handleAdd}>Click to view frequency </button>
         <FreqDisplay viewBirdArray={viewBirdArray} />
     </div>

@@ -1,12 +1,14 @@
 .componentBody{
     color: gray; 
-    width: 35%; 
+    width: 100%; 
     margin-left: auto;
     margin-right: auto;
+    margin-top: -15px;
+    overflow: visible;
 }
 
-.dataCont{
-    /* margin-top: -25px; */
+.dataContainer{
+    margin-top: -20px;
     overflow-y: scroll;
     height: 45vh; 
   
