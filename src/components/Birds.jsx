@@ -45,7 +45,7 @@ function Birds() {
             }
             bird = {species : shortArr[i], 
                     count : count,
-                    id : i
+                    id : i+1
                    } 
             console.log("bird.species: ", bird.species, "bird.count: ", bird.count)
             birdArr.push(bird)           
@@ -56,7 +56,7 @@ function Birds() {
         console.log("\nbirdArr: ", birdArr)
         
         setViewBirdArray(birdArr)
-        
+        console.log("OMG", birdArr)
     }
 
   return (
